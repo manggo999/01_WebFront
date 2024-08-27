@@ -73,6 +73,30 @@ function minus4() {
 
 }
 
+
+let count4 = 0;
+const input4 = document.getElementById("input4");
+const result4 = document.getElementById("result4");
+
+function minus4() {
+    const value = Number(input4.value);
+
+    count4 = count4 - value;
+    count4 -= value;
+
+    result4.innerText = count4;
+
+}
+
+
+
+
+
+
+
+
+
+
 //누적
 function plus4() {
     const value = Number(input4.value);
@@ -103,7 +127,7 @@ function checkFn5() {
 
     //4는 10을 초과 하거나, 짝수인가?
     const bool4 = (4 > 10) || (4 % 2 == 0);
-    console.log(`4는 10을 초과 하거나, 짝수인가? $ {bool4}`);
+    console.log(`4는 10을 초과 하거나, 짝수인가? ${bool4}`);
 
     //50은 0 이하 또는 40 이상인가?
     const bool5 = (50 <= 0) || (50 >= 40);
@@ -115,7 +139,7 @@ function checkFn5() {
     console.log(`!false = ${!false}`);
 
     const bool6 = false;
-    console.log( !(bool6 ! = true)); //false
+    console.log( !(bool6 != true)); //false
 
     
 }
