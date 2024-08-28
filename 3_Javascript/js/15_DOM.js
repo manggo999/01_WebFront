@@ -7,7 +7,7 @@ document.querySelector("#btn1").addEventListener("click", () => {
 
 
     // test의 모든 자식 노드 얻어오기
-    const list = test.hasChildNodes; 
+    const list = test.childNodes; 
     console.log(list); // NodeList -> 유사배열
 
     // 자식 노드 중 첫번째 li 요소

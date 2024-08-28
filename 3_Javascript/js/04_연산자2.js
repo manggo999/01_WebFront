@@ -74,23 +74,6 @@ function minus4() {
 }
 
 
-let count4 = 0;
-const input4 = document.getElementById("input4");
-const result4 = document.getElementById("result4");
-
-function minus4() {
-    const value = Number(input4.value);
-
-    count4 = count4 - value;
-    count4 -= value;
-
-    result4.innerText = count4;
-
-}
-
-
-
-
 
 
 
